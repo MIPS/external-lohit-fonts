@@ -17,4 +17,4 @@
 # get installed too.
 
 PRODUCT_PACKAGES := \
-    Lohit-Devanagari.ttf
+    Lohit-Bengali.ttf

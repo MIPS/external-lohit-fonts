@@ -18,4 +18,6 @@ Mailing list:-
 http://www.redhat.com/mailman/listinfo/lohit-devel-list
 
 
-
+NOTE: This font file was modified from the original source by the Android
+and i18n teams, to remove improperly mapped glyphs. We are in the process
+of getting these changes merged with the upstream source.

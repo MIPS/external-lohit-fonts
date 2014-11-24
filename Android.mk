@@ -17,27 +17,11 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(SMALLER_FONT_FOOTPRINT),true)
+ifeq ($(EXTENDED_FONT_FOOTPRINT),true)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Lohit-Bengali.ttf
-LOCAL_SRC_FILES := lohit-bengali-ttf/$(LOCAL_MODULE)
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_PATH := $(TARGET_OUT)/fonts
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Lohit-Kannada.ttf
-LOCAL_SRC_FILES := lohit-kannada-ttf/$(LOCAL_MODULE)
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_PATH := $(TARGET_OUT)/fonts
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Lohit-Telugu.ttf
-LOCAL_SRC_FILES := lohit-telugu-ttf/$(LOCAL_MODULE)
+LOCAL_MODULE := Lohit-Odia.ttf
+LOCAL_SRC_FILES := lohit-odia-ttf/$(LOCAL_MODULE)
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(TARGET_OUT)/fonts
